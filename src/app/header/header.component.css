@@ -1,0 +1,8 @@
+.header {padding: 50px 0 0; /*position: absolute; width: 100%; z-index: 10;*/ height: 400px; 
+    background-image: url("/assets/images/header-bg.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover;}
+.header .header-top {border-bottom: 1px solid rgba(255, 255, 255, 0.6); padding: 0 0 5px; margin: 0 0 20px;}
+.logo h1 a {font-size: 60px; color: #fff;}
+.header .social-share {position: relative; top: 35px;}
+.header .social-share a {color: #fff; font-size: 18px; display: inline-block; margin: 0 6px;}
+.header .social-share a:hover {color: #ff4955;}
+.header-menu li a {font-size: 20px; text-transform: uppercase; color: #fff;}

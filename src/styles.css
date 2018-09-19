@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+/* -----------------------------------------------------
+1.0 GENERAL
+----------------------------------------------------- */
+body {font-family: 'Open Sans', sans-serif; color: #2a2d2d;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Righteous', cursive;}
+p {font-weight: 300; line-height: 20px; font-size: 15px;}
+.btn,.btn:hover,a,a:hover{-webkit-transition: all 0.4s ease-in-out 0s; -moz-transition: all 0.4s ease-in-out 0s; -ms-transition: all 0.4s ease-in-out 0s; transition: all 0.4s ease-in-out 0s;}
+a:hover,
+a:focus,
+a:active{text-decoration:none; opacity: 1;}
+a.active {color: rgb(255,73,85) !important;}
+img{max-width:100%}
+ul{margin:0; padding: 0; list-style: none;}
+button:focus,
+.btn.focus, 
+.btn:focus {outline: none; box-shadow: 0 0 0  transparent;}
+.btn {border-radius: 50px; border: none; background-color: rgb(255,73,85); padding: 15px 45px; color: #fff; font-weight: 300; display: inline-block; transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0);}
+.btn:hover,
+.btn:visited,
+.btn:focus,
+.btn:active {box-shadow: 0px 3px 10px 2px rgba(0,0,0,0.10); color: #fff; -moz-box-shadow: 0px 3px 10px 2px rgba(0,0,0,0.10); box-shadow: 0px 3px 10px 2px rgba(0,0,0,0.10);
+transform: translateY(-8px); -webkit-transform: translateY(-8px); -moz-transform: translateY(-8px); -ms-transform: translateY(-8px);}
+/* -----------------------------------------------------
+2.0 ELEMENTS
+----------------------------------------------------- */
+.sec-lg {padding: 100px 0;}
+.sec-heading {font-size: 70px; text-align: center; position: relative; padding: 0 0 10px;}
+.sec-heading.sec-heading_dark {color: #292c2b;}
+.sec-heading.sec-heading_white {color: #fff;}
+.sec-heading:after {position: absolute; content: ""; left: 0; right: 0; bottom: -5px; margin: 0 auto; width: 120px; height: 5px; background-color: rgb(255, 73, 85);}
+.sec-heading.border-white:after {background-color: #fff;}
+.bg-dark-gray {background-color: #f0f0f2;}
+.parallax-bg {background-image: url("/assets/images/parallax-bg.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+.form-control:focus {box-shadow: 0 0 0  transparent;}
+.contact-us-info {text-align: center;}
+.contact-us-info p {padding: 50px 0;}
+.contact-us-info p,
+.contact-us-info p a {color: #292c2b;}
+.contact-us-info p a:hover {color: #ff4955;}
